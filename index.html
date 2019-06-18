@@ -6,8 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assests/css/style.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="assests/css/style.css" type="text/css" />
 	<title>Today in History</title>
 </head>
 
@@ -17,9 +20,8 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">Today in History</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
+   		 		<span class="navbar-toggler-icon"></span>
+  			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
@@ -28,22 +30,65 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">What Happened</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Podcast</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Today's Video</a>
-					</li>
+						<a class="nav-link" href="#">Video</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Magazine</a>
 					</li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Subscribe</button>
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Sign Up</h4>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<form action="/action_page.php">
+									<div class="form-group">
+										<label for="email">Email Address:</label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+									</div>
+									<div class="form-group">
+										<label for="pwd">Password:</label>
+										<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+									</div>
+									<div class="form-group">
+										<label for="pwd">Repeat Password:</label>
+										<input type="password" class="form-control" id="pwd" placeholder="Repeat Password" name="pswd">
+									</div>
+									<div class="form-group form-check">
+										<label class="form-check-label">
+									<input class="form-check-input" type="checkbox"> Remember me </label>
+									</div>
+									<div class="form-group form-check">
+										<label class="form-check-label">
+									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
+									</div>
+							</div>
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-success" data-dismiss="modal">Subscribe</button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</nav>
 	</header>
+	<!-- Landing Page-->
+	<section class="callout jumbotron text-center">
+		<h1 class="jumbotron-header">Today in History.</h1>
+
+	</section>
+
 	<!-- What Happened-->
 	<section>
 
