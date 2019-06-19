@@ -1,0 +1,14 @@
+body {
+  background-color: #37ff8b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-img {
+  width: 350px;
+  height: 400px;
+}
