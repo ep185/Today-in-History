@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-	<link rel="stylesheet" href="assests/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Today in History</title>
 </head>
 
@@ -98,11 +98,11 @@
 	<section class="what-happened">
 		<h1>What Happened Today</h1>
 		<hr>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 card-waterloo">
 					<div class="card mb-3">
-						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top">
+						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top large-image">
 						<div class="card-body">
 							<h5 class="card-title">Battle Of Waterloo 1815</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci pariatur deleniti doloremque nobis ex aliquam ratione molestiae eaque, atque tenetur, at officia nemo illum incidunt cumque quod aspernatur aut perspiciatis sint suscipit, esse
@@ -126,10 +126,10 @@
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/Alfred-Russel-Wallace.jpg" class="card-img-top small-img">
+					<img src="assets/images/egyptian-revolution.jpg" class="card-img-top small-img">
 					<div class="card-body">
-						<h5 class="card-title">Alfred Russel Wallace 1858</h5>
-						<p class="card-text">Charles Darwin receives a paper from Alfred Russel Wallace that includes nearly identical conclusions about evolution as Darwin's own, prompting Darwin to publish his theory, On the Origin of Species.</p>
+						<h5 class="card-title">Egyptian Revolution Ends 1953</h5>
+						<p class="card-text">The Egyptian revolution of 1952 ends with the overthrow of the Muhammad Ali dynasty and the declaration of the Republic of Egypt.</p>
 					</div>
 				</div>
 			</div>
@@ -139,16 +139,15 @@
 	<!-- Podcasts -->
 	<section class="podcasts">
 		<h1 class="podcast-title">Todays Podcast</h1>
-
-		<div class="conainer">
+		<div class="conainer-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 section-column">
 					<h3 class="audio-headers">Winston Churchill: Their Finest Hour Speech 1940</h3>
 					<audio controls="true">
 					<source src="assets/audio/THEIR FINEST HOUR speech by Winston Churchill [BEST SOUND].mp3" type="audio/mpeg">
 					</div>
 				</audio>
-					<div class="col-md-4">
+					<div class="col-lg-4 section-column">
 						<h3 class="audio-headers"> Battle Of Waterloo 1815</h3>
 						<audio controls="true">
 					<source src="assets/audio/Battle of Waterloo special.mp3" type="audio/mpeg">
@@ -159,38 +158,130 @@
 	</section>
 
 	<!-- Video-->
-	<section>
+	<section class="video">
 		<h1>Todays Video's</h1>
-		<div class="container">
+		<div class="conainer-fluid">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-lg-6 p-3">
 					<h3 class="video-headers">Egyptian Revolution</h3>
-					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yy2H77mmsok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="iframe-container">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yy2H77mmsok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 				</div>
-				<div class="col-md-12">
+				<div class="col-lg-6 p-3">
 					<h3 class="video-headers">Battle of Waterloo</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/nDZGL1xsqzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="iframe-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/nDZGL1xsqzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 				</div>
-				<div class="col-md-12">
+				<div class="col-lg-6 p-3">
 					<h3 class="video-headers">Rise of the Tang</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/QN535vSrvGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="iframe-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/QN535vSrvGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-lg-6 p-3">
+					<h3 class="video-headers">The context of "Their finest hour speech"</h3>
+					<div class="iframe-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Oj3dZNykOw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
-		
+
 	</section>
-			<!-- Magazine-->
-			<section>
+	<!-- Magazine-->
+	<section call="magazine class">
+		<h1>This Months Magazine</h1>
+		<div class="container-fluid">
+			<div class="col-md-4 shadow-sm">
+				<img src="assets/images/History-Magazine.jpg" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">June Magazine Vol 3</h5>
+					<ul>
+						<li>First Feature</li>
+						<li>Second Feature</li>
+						<li>Third Feature</li>
+						<li>Fourth Feature</li>
+						<li>Fifth Feature</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-			</section>
-			<footer>
+	</section>
 
-			</footer>
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Social</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">
+					Full Stack Web Developer. Skilled in everything from html to Heroku. The capacity for structural and design thinking.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Download</h5>
+				<p clas="inline-block">
+					Need a printable version of my CV? Download it here!
+					<a href="#" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download Link.</span>
+                    </a>
+				</p>
+
+			</div>
 
 
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		</div>
+
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
