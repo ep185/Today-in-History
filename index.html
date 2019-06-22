@@ -14,7 +14,7 @@
 <body>
 	<!-- Navbar & subscribe button-->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
 			<a class="navbar-brand" href="#">Today in History</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    		 		<span class="navbar-toggler-icon"></span>
@@ -96,13 +96,13 @@
 
 	<!-- What Happened-->
 	<section class="what-happened">
-		<h1>What Happened Today</h1>
+		<h1 class="section-heading">What Happened Today</h1>
 		<hr>
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-12 card-waterloo">
+				<div class="col-md-12 shadow-sm">
 					<div class="card mb-3">
-						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top large-image">
+						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top" alt="Battle of Waterloo">
 						<div class="card-body">
 							<h5 class="card-title">Battle Of Waterloo 1815</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci pariatur deleniti doloremque nobis ex aliquam ratione molestiae eaque, atque tenetur, at officia nemo illum incidunt cumque quod aspernatur aut perspiciatis sint suscipit, esse
@@ -112,21 +112,21 @@
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/Winston-Churchill.jpg" class="card-img-top small-img">
+					<img src="assets/images/Winston-Churchill.jpg" class="card-img-top small-img" alt="Winston Churchill">
 					<div class="card-body">
 						<h5 class="card-title">Their Finest Hour Speech 1940</h5>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, debitis.</p>
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/Emperor-Gaozu.jpg" class="card-img-top small-img">
+					<img src="assets/images/Emperor-Gaozu.jpg" class="card-img-top small-img" alt="Emperor Gaozu">
 					<div class="card-body">
-						<h5 class="card-title">Governor Li Yuan as Emperor Gaozu of Tang 618</h5>
+						<h5 class="card-title">Governor Li Yuan Crowned Emperor Gaozu of Tang 618</h5>
 						<p class="card-text">Initiating three centuries of the Tang Dynasty's rule over China, Historians generally regard the Tang as a high point in Chinese civilization, and a golden age of cosmopolitan culture</p>
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/egyptian-revolution.jpg" class="card-img-top small-img">
+					<img src="assets/images/egyptian-revolution.jpg" class="card-img-top small-img" alt="Egyptian Revolution">
 					<div class="card-body">
 						<h5 class="card-title">Egyptian Revolution Ends 1953</h5>
 						<p class="card-text">The Egyptian revolution of 1952 ends with the overthrow of the Muhammad Ali dynasty and the declaration of the Republic of Egypt.</p>
@@ -138,8 +138,8 @@
 
 	<!-- Podcasts -->
 	<section class="podcasts">
-		<h1 class="podcast-title">Todays Podcast</h1>
-		<div class="conainer-fluid">
+		<h1 class="section-heading">Todays Podcast</h1>
+		<div class="conainer">
 			<div class="row">
 				<div class="col-lg-4 section-column">
 					<h3 class="audio-headers">Winston Churchill: Their Finest Hour Speech 1940</h3>
@@ -159,7 +159,7 @@
 
 	<!-- Video-->
 	<section class="video">
-		<h1>Todays Video's</h1>
+		<h1 class="section-heading">Todays Video's</h1>
 		<div class="conainer-fluid">
 			<div class="row">
 				<div class="col-lg-6 p-3">
@@ -191,13 +191,15 @@
 
 	</section>
 	<!-- Magazine-->
-	<section call="magazine class">
-		<h1>This Months Magazine</h1>
-		<div class="container-fluid">
-			<div class="col-md-4 shadow-sm">
-				<img src="assets/images/History-Magazine.jpg" class="card-img-top">
-				<div class="card-body">
-					<h5 class="card-title">June Magazine Vol 3</h5>
+	<section class="magazine">
+		<h1 class="section-heading">This Months Magazine</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="assets/images/History-Magazine.jpg" class="magazine-image" alt="magazine image">
+				</div>
+				<div class="col-sm-6 magazine-description">
+					<h5>June Magazine Vol 3</h5>
 					<ul>
 						<li>First Feature</li>
 						<li>Second Feature</li>

@@ -1,19 +1,53 @@
-.large-image {
-  max-width: 1200px;
+body {
+  background-color: #525252;
+  color: white;
+}
+
+.card {
+  background-color: #525252;
+}
+
+.landing-page {
+   height: 100vh;
+  background: url('../images/battle-of-waterloo-head.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
+.jumbotron {
+    background-color: transparent;
+    color: white;
+}
+
+/* -------------------------------------------Image sizes */
 .small-img {
   width: 350px;
   height: 400px;
 }
 
+.magazine-image {
+  max-width: 500px;
+  max-height: 707px;
+}
+
 /* -------------------------------------------Special padding/margins/text */
+
+.section-heading {
+  padding: 10px;
+
+}
 
 
 .iframe-container{
   position: relative;
-  width: 100%;
+  width: 70%;
   padding-bottom: 56.25%; 
   height: 0;
 }
