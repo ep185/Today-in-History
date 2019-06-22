@@ -1,2 +1,5 @@
 # Today-in-History
-History Website that will tell you what events happened today in the past and provide podcasts, Video and magazine on the event
+
+The main purpose of this website is for it to attract a user who has a interest in history or is drawn into the website to find out what events took place today in the past. They will then, hopefully, subscribe to our website so that they can receive newsletters every week giving them a timetable of the events that have happened and the main event the website will be covering.
+Today in History Website will tell you what events happened today in the past and provide podcasts, Videos and magazine on the events that took place on this day throughout history. The example day that I am using is for the 18 June with the main event being the battle of waterloo that took place on that day. As this is the main event the user will be directed to the first image and text giving a general overview of the event. Will then provide links to see a video and a podcast relating to the main event.
+There will be 3 minor events that will aslo be included that hopefully they have not encountered before and the website will provide either a podcast and a documentary video on the subject or at least a video for them to learn more. 
