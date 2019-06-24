@@ -14,7 +14,7 @@
 <body>
 	<!-- Navbar & subscribe button-->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">Today in History</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    		 		<span class="navbar-toggler-icon"></span>
@@ -42,11 +42,11 @@
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h4 class="modal-title">Sign Up</h4>
+								<h4 class="modal-title form-content">Sign Up</h4>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
-								<form action="/action_page.php">
+								<form class="form-content">
 									<div class="form-group">
 										<label for="email">Email Address:</label>
 										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -67,11 +67,13 @@
 										<label class="form-check-label">
 									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
 									</div>
+								</form>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-success" data-dismiss="modal">Subscribe</button>
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 							</div>
+
 						</div>
 					</div>
 				</div>
@@ -102,7 +104,7 @@
 			<div class="row">
 				<div class="col-md-12 shadow-sm">
 					<div class="card mb-3">
-						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top" alt="Battle of Waterloo">
+						<img src="assets/images/Battle-of-Waterloo.jpg" class="card-img-top img-fluid" alt="Battle of Waterloo">
 						<div class="card-body">
 							<h5 class="card-title">Battle Of Waterloo 1815</h5>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci pariatur deleniti doloremque nobis ex aliquam ratione molestiae eaque, atque tenetur, at officia nemo illum incidunt cumque quod aspernatur aut perspiciatis sint suscipit, esse
@@ -112,21 +114,21 @@
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/Winston-Churchill.jpg" class="card-img-top small-img" alt="Winston Churchill">
+					<img src="assets/images/Winston-Churchill.jpg" class="card-img-top img-fluid" alt="Winston Churchill">
 					<div class="card-body">
 						<h5 class="card-title">Their Finest Hour Speech 1940</h5>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, debitis.</p>
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/Emperor-Gaozu.jpg" class="card-img-top small-img" alt="Emperor Gaozu">
+					<img src="assets/images/Emperor-Gaozu.jpg" class="card-img-top img-fluid" alt="Emperor Gaozu">
 					<div class="card-body">
 						<h5 class="card-title">Governor Li Yuan Crowned Emperor Gaozu of Tang 618</h5>
 						<p class="card-text">Initiating three centuries of the Tang Dynasty's rule over China, Historians generally regard the Tang as a high point in Chinese civilization, and a golden age of cosmopolitan culture</p>
 					</div>
 				</div>
 				<div class="col-md-4 shadow-sm">
-					<img src="assets/images/egyptian-revolution.jpg" class="card-img-top small-img" alt="Egyptian Revolution">
+					<img src="assets/images/egyptian-revolution.jpg" class="card-img-top img-fluid" alt="Egyptian Revolution">
 					<div class="card-body">
 						<h5 class="card-title">Egyptian Revolution Ends 1953</h5>
 						<p class="card-text">The Egyptian revolution of 1952 ends with the overthrow of the Muhammad Ali dynasty and the declaration of the Republic of Egypt.</p>
@@ -139,22 +141,38 @@
 	<!-- Podcasts -->
 	<section class="podcasts">
 		<h1 class="section-heading">Todays Podcast</h1>
-		<div class="conainer">
-			<div class="row">
-				<div class="col-lg-4 section-column">
-					<h3 class="audio-headers">Winston Churchill: Their Finest Hour Speech 1940</h3>
-					<audio controls="true">
+		<div class="container">
+			<div class="row audio-content">
+				<div class="col-lg-6">
+					<h3 class="audio-header">Winston Churchill: Their Finest Hour Speech 1940</h3>
+					<p class="lead"> This speech to the House of Commons signalled the beginning of the Battle of Britain</p>
+					<audio controls style="max-width: 600px;">
 					<source src="assets/audio/THEIR FINEST HOUR speech by Winston Churchill [BEST SOUND].mp3" type="audio/mpeg">
-					</div>
-				</audio>
-					<div class="col-lg-4 section-column">
-						<h3 class="audio-headers"> Battle Of Waterloo 1815</h3>
-						<audio controls="true">
-					<source src="assets/audio/Battle of Waterloo special.mp3" type="audio/mpeg">
-				</audio>
-					</div>
+					</audio>
 				</div>
+				<div class="col-lg-6">
+					<blockquote class="blockquote">
+						<p class="mb-0">“Now this is not the end. It is not even the beginning of the end.
+						 But it is, perhaps, the end of the beginning.”</p>
+						<footer class="blockquote-footer">Winston Churchill <cite title="Source Title">Their Finest Hour Speech</cite></footer>
+					</blockquote>
+				</div>
+				<div class="col-lg-6">
+					<h3 class="audio-header">Battle of Waterloo</h3>
+					<p class="lead"> Podcast discussing the Battle of Waterloo and its consequences</p>
+					<audio controls style="max-width: 600px;">
+					<source src="assets/audio/Battle of Waterloo special.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+				<div class="col-lg-6">
+					<blockquote class="blockquote">
+						<p class="mb-0">I don't know what effect these men will have upon the enemy, but by God, they frighten me.</p>
+						<footer class="blockquote-footer">Duke of Wellington <cite title="Source Title">The Battle of Waterloo</cite></footer>
+					</blockquote>
+				</div>
+				
 			</div>
+		</div>
 	</section>
 
 	<!-- Video-->
@@ -162,26 +180,26 @@
 		<h1 class="section-heading">Todays Video's</h1>
 		<div class="conainer-fluid">
 			<div class="row">
-				<div class="col-lg-6 p-3">
+				<div class="col-lg-6">
 					<h3 class="video-headers">Egyptian Revolution</h3>
 					<div class="iframe-container">
 						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yy2H77mmsok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-lg-6 p-3">
+				<div class="col-lg-6">
 					<h3 class="video-headers">Battle of Waterloo</h3>
 					<div class="iframe-container">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/nDZGL1xsqzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-lg-6 p-3">
+				<div class="col-lg-6">
 					<h3 class="video-headers">Rise of the Tang</h3>
 					<div class="iframe-container">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/QN535vSrvGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-lg-6 p-3">
-					<h3 class="video-headers">The context of "Their finest hour speech"</h3>
+				<div class="col-lg-6">
+					<h3 class="video-headers">"Their finest hour speech"</h3>
 					<div class="iframe-container">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/Oj3dZNykOw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
@@ -196,7 +214,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="assets/images/History-Magazine.jpg" class="magazine-image" alt="magazine image">
+					<img src="assets/images/History-Magazine.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 				<div class="col-sm-6 magazine-description">
 					<h5>June Magazine Vol 3</h5>
@@ -213,69 +231,88 @@
 
 	</section>
 
-	<footer class="container-fluid">
-		<div id="footer-details" class="row">
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+	<footer class="page-footer pt-4">
+		<div class="container-fluid text-center text-md-left">
+			<div class="row">
+				<div class="col-md-4 d-sm-none d-md-block">
+					<h5 class="uppercase general-sub">Subscribe</h5>
+					<form class="form-content">
+						<div class="form-group">
+							<label for="email">Email Address:</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+						</div>
+						<div class="form-group">
+							<label for="pwd">Password:</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+						</div>
+						<div class="form-group">
+							<label for="pwd">Repeat Password:</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Repeat Password" name="pswd">
+						</div>
+						<div class="form-group form-check">
+							<label class="form-check-label">
+									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
+						</div>
+					</form>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Subscribe</button>
+				</div>
+				<div class="col-sm-4">
+					<h5>Contacts</h5>
+					<dl class="contact-list">
+						<dt>Address:</dt>
+						<dd>51 Crown Street, LONDON, WC1R 9TF</dd>
+					</dl>
+					<dl class="contact-list">
+						<dt>Email:</dt>
+						<dd><a href="mailto:#">TodayinHistory@gmail.com</a></dd>
+					</dl>
+					<dl class="contact-list">
+						<dt>Phones:</dt>
+						<dd><a href="tel:#">0208 563 6699</a> <span>or</span> <a href="tel:#">078 2812 4877</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="col-sm-4">
+					<h5 class="uppercase general-sub">Social</h5>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
-					</li>
-				</ul>
+						</li>
+					</ul>
+
+				</div>
+				<div class="footer-copyright text-center py-3">© 2019 Copyright:
+					<a href="#"> TodayinHistory.com</a>
+				</div>
 
 			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">About</h5>
-				<p class="inline-block">
-					Full Stack Web Developer. Skilled in everything from html to Heroku. The capacity for structural and design thinking.
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Download</h5>
-				<p clas="inline-block">
-					Need a printable version of my CV? Download it here!
-					<a href="#" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download Link.</span>
-                    </a>
-				</p>
-
-			</div>
-
-
 		</div>
 
 	</footer>

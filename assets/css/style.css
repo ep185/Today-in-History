@@ -1,10 +1,15 @@
 body {
   background-color: #525252;
   color: white;
+  margin-left: 5px;
 }
 
 .card {
   background-color: #525252;
+}
+
+.form-content {
+  color: #525252;
 }
 
 .landing-page {
@@ -26,16 +31,6 @@ body {
     color: white;
 }
 
-/* -------------------------------------------Image sizes */
-.small-img {
-  width: 350px;
-  height: 400px;
-}
-
-.magazine-image {
-  max-width: 500px;
-  max-height: 707px;
-}
 
 /* -------------------------------------------Special padding/margins/text */
 
@@ -44,13 +39,21 @@ body {
 
 }
 
+.audio-content {
+  padding-top: 10px;
+
+}
+
+.podcast {
+  padding: 10px;
+}
 
 .iframe-container{
   position: relative;
   width: 70%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
-}
+  }
 .iframe-container iframe{
   position: absolute;
   top:0;
