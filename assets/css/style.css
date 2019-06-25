@@ -26,13 +26,20 @@ body {
 }
 
 
+
+
+
 .jumbotron {
     background-color: transparent;
     color: white;
 }
 
+.blockquote-footer {
+  color: white;
+}
 
 /* -------------------------------------------Special padding/margins/text */
+
 
 .section-heading {
   padding: 10px;
@@ -40,12 +47,7 @@ body {
 }
 
 .audio-content {
-  padding-top: 10px;
-
-}
-
-.podcast {
-  padding: 10px;
+  padding-top: 20px;
 }
 
 .iframe-container{
@@ -68,4 +70,15 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.container {
+  max-width: 1500px;
 }
