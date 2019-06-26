@@ -1,7 +1,6 @@
 body {
   background-color: #525252;
   color: white;
-  margin-left: 5px;
 }
 
 .card {
@@ -42,7 +41,8 @@ body {
 
 
 .section-heading {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 
 }
 
@@ -52,7 +52,7 @@ body {
 
 .iframe-container{
   position: relative;
-  width: 70%;
+  width: 80%;
   padding-bottom: 56.25%;
   height: 0;
   }
@@ -66,8 +66,8 @@ body {
 
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: white;
+    color: #525252;
     min-height: 120px;
     margin: 0;
 }
@@ -81,4 +81,32 @@ footer {
 
 .container {
   max-width: 1500px;
+}
+
+.listen {
+  background-color: white;
+  color: #525252;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blockquote-footer{
+  background-color: white;
+  color: #525252;
+}
+
+.what-happened {
+  padding-top: 30px;
+}
+
+.video {
+  padding-top: 30px;
+}
+.magazine {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.section {
+  overflow: hidden;
 }
