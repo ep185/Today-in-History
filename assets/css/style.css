@@ -97,6 +97,7 @@ footer {
 
 .what-happened {
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .video {
@@ -109,4 +110,8 @@ footer {
 
 .section {
   overflow: hidden;
+}
+
+.modal-backdrop {
+  position:unset !important;
 }
