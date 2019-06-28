@@ -102,6 +102,7 @@ footer {
 
 .video {
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 .magazine {
   padding-top: 30px;
@@ -114,4 +115,8 @@ footer {
 
 .modal-backdrop {
   position:unset !important;
+}
+
+.watch-content {
+  padding-top: 20px;
 }

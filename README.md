@@ -41,5 +41,8 @@ main front screen of the website will be a taster of content for today and the u
 3.Bootstrap (4.3.1)
 
 
+# Acknowledgements
 
+Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
+Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
 
