@@ -47,3 +47,4 @@ Used the text for the Battle of Waterloo card from https://www.britannica.com/ev
 Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
 Used similar code for the social links as that used in the resume project - used similar class name and css properties
 Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd https://bootsnipp.com/snippets/2eMK5
+used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.

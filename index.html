@@ -48,16 +48,16 @@
 							<div class="modal-body">
 								<form class="form-content">
 									<div class="form-group">
-										<label for="email">Email Address:</label>
-										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+										<label for="validationDefault01">Email Address:</label>
+										<input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Email Address" required>
 									</div>
 									<div class="form-group">
 										<label for="pwd">Password:</label>
-										<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+										<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
 									</div>
 									<div class="form-group">
 										<label for="pwd">Repeat Password:</label>
-										<input type="password" class="form-control" id="pwd" placeholder="Repeat Password" name="pswd">
+										<input type="password" class="form-control" id="rppwd" placeholder="Repeat Password" name="rppswd" required>
 									</div>
 									<div class="form-group form-check">
 										<label class="form-check-label">
@@ -67,12 +67,13 @@
 										<label class="form-check-label">
 									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
 									</div>
+									<div class="modal-footer">
+										<button type="submit" class="btn btn-success" data-dismiss="modal">Subscribe</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+									</div>
 								</form>
 							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-success" data-dismiss="modal">Subscribe</button>
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
+
 
 						</div>
 					</div>
@@ -217,13 +218,16 @@
 					<img src="assets/images/history-magazine.jpg" class="img-fluid" alt="Responsive image">
 				</div>
 				<div class="col-sm-6 magazine-description">
-					<h5>June Magazine Vol 3</h5>
+					<h3>June Magazine Vol 3</h3>
 					<ul>
-						<li>First Feature</li>
-						<li>Second Feature</li>
-						<li>Third Feature</li>
-						<li>Fourth Feature</li>
-						<li>Fifth Feature</li>
+						<li><strong>11 June 323 BC:</strong> Alexander the Great dies after drinking binge</li>
+						<li><strong>26 June AD 363:</strong> A Persian spear fells Rome’s last pagan emperor.</li>
+						<li><strong>18 June 1178:</strong> Monks witness an extraordinary lunar event</li>
+						<li><strong>26 June 1541:</strong> Francis Pizarro meets a bloody end over dinner.</li>
+						<li><strong>5 June 1832:</strong> Angry Parisians man the barricades which inspires Victor Hugo to write a famous novel <i>Les Misérables.</i> </li>
+						<li><strong>16 June 1883:</strong> 183 children crushed to death in concert tragedy.</li>
+						<li><strong>23 June 1940:</strong> Hitler crows over Paris in his only ever visit to the city.</li>
+						<li><strong>4 June 1989:</strong> Hundreds die in Tiananmen Square</li>
 					</ul>
 				</div>
 			</div>
@@ -269,7 +273,7 @@
 			</div>
 			<hr class="footer-divider">
 		</div>
-		
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-sm-6 col-xs-12">
