@@ -46,4 +46,4 @@ main front screen of the website will be a taster of content for today and the u
 Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
 Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
 Used similar code for the social links as that used in the resume project - used similar class name and css properties
-Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd
+Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd https://bootsnipp.com/snippets/2eMK5
