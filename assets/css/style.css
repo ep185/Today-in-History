@@ -1,78 +1,16 @@
+/* -------------------------------------------general padding/margins/text/colour */
+
 body {
   background-color: #525252;
   color: white;
 }
-.navbar {
-  background-color: #525252;
+
+.section {
+  overflow: hidden;
 }
 
-.card {
-  background-color: #525252;
-}
-
-.form-content {
-  color: #525252;
-}
-
-.landing-page {
-   height: 100vh;
-  background: url('../images/battle-of-waterloo-head.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-
-
-
-
-.jumbotron {
-    background-color: transparent;
-    color: white;
-}
-
-.blockquote-footer {
-  color: white;
-}
-
-/* -------------------------------------------Special padding/margins/text */
-
-
-.section-heading {
-  padding-top: 10px;
-  padding-bottom: 20px;
-
-}
-
-.audio-content {
-  padding-top: 20px;
-}
-
-.iframe-container{
-  position: relative;
-  width: 80%;
-  padding-bottom: 56.25%;
-  height: 0;
-  }
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-footer {
-    background-color: white;
-    color: #525252;
-    min-height: 120px;
-    margin: 0;
+.container {
+  max-width: 1500px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -82,9 +20,62 @@ footer {
   }
 }
 
-.container {
-  max-width: 1500px;
+.section-heading {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
+
+/*-------------------------------------------navbar */
+
+.navbar {
+  background-color: #525252;
+}
+
+.modal-backdrop {
+  position: unset !important;
+}
+
+.form-content {
+  color: #525252;
+}
+
+/*-------------------------------------------Landing Page */
+
+.landing-page {
+  height: 100vh;
+  background: url('../images/battle-of-waterloo-head.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+}
+
+.block-divider {
+  background-color: white;
+}
+
+/*-------------------------------------------what happened */
+
+.what-happened {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: #525252;
+}
+
+/*-------------------------------------------listen */
 
 .listen {
   background-color: white;
@@ -93,53 +84,145 @@ footer {
   padding-bottom: 50px;
 }
 
-.blockquote-footer{
+.audio-content {
+  padding-top: 20px;
+}
+
+.blockquote-footer {
   background-color: white;
   color: #525252;
 }
 
-.what-happened {
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
+/*-------------------------------------------watch */
 
 .video {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
-}
-.magazine {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.section {
-  overflow: hidden;
-}
-
-.modal-backdrop {
-  position:unset !important;
 }
 
 .watch-content {
   padding-top: 20px;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.iframe-container {
+  position: relative;
+  width: 80%;
+  padding-bottom: 56.25%;
+  height: 0;
 }
 
-.social-links li a i:hover {
-    background-color: blue;
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
+
+/*-------------------------------------------magazine */
+
+.magazine {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/*-------------------------------------------footer */
+
+footer {
+  background-color: white;
+  color: #525252;
+  min-height: 120px;
+  margin: 0;
+}
+
+.page-footer a {
+  color: #525252;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.page-footer a:hover {
+  color: #0099CC;
+}
+
+
+
+.page-footer dd a {
+  text-decoration: none;
+  color: #525252;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.page-footer dd a:hover {
+  color: #0099CC;
+}
+
+.nav-list {
+  padding: 0;
+}
+.page-footer li {
+  list-style: none;
+}
+
+.page-footer li a  {
+  color: #525252;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.page-footer li a:hover {
+  color: #0099CC;
+  text-decoration: none;
+}
+
+.page-footer hr {
+  background-color: #525252;
+  opacity: 0.5;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+
+.social-links li {
+  display: inline-block;
+  margin-bottom: 4px
+}
+
+.social-links li .title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px
+}
+
+.social-links a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+

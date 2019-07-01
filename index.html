@@ -16,10 +16,10 @@
 	<header>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 			<a class="navbar-brand" href="#">Today in History</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
    		 		<span class="navbar-toggler-icon"></span>
   			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -90,7 +90,7 @@
 					<p class="lead">Relive events from the past today <strong>The 18th June</strong></p>
 					<hr class="block-divider">
 					<h1>Battle of Waterloo 1815</h1>
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readmoreModal" href="#what happened">Read More!</button>
+					<a class="btn btn-primary" href="#what happened" role="button">Read More!</a>
 				</section>
 			</div>
 		</div>
@@ -107,9 +107,9 @@
 						<img src="assets/images/battle-of-waterloo.jpg" class="card-img-top img-fluid" alt="battle of waterloo">
 						<div class="card-body">
 							<h5 class="card-title">Battle Of Waterloo 1815</h5>
-							<p class="card-text">Battle of Waterloo, also called La Belle Alliance was Napoleon’s final defeat, ending 23 years of recurrent warfare between France and the other powers of Europe. 
-							It was fought during the Hundred Days of Napoleon’s restoration, 3 miles (5 km) south of Waterloo village (which is 9 miles [14.5 km] south of Brussels), between Napoleon’s 72,000 troops and the combined forces 
-							of the duke of Wellington’s allied army of 68,000 (with British, Dutch, Belgian, and German units) and about 45,000 Prussians, the main force of Gebhard Leberecht von Blücher’s command.
+							<p class="card-text">Battle of Waterloo, also called La Belle Alliance was Napoleon’s final defeat, ending 23 years of recurrent warfare between France and the other powers of Europe. It was fought during the Hundred Days of Napoleon’s restoration, 3 miles (5 km) south
+								of Waterloo village (which is 9 miles [14.5 km] south of Brussels), between Napoleon’s 72,000 troops and the combined forces of the duke of Wellington’s allied army of 68,000 (with British, Dutch, Belgian, and German units) and about 45,000 Prussians,
+								the main force of Gebhard Leberecht von Blücher’s command.
 							</p>
 						</div>
 					</div>
@@ -231,32 +231,16 @@
 
 	</section>
 
+
 	<footer class="page-footer pt-4">
-		<div class="container-fluid text-center text-md-left">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-4 ">
-					<h5 class="uppercase general-sub">Subscribe</h5>
-					<form class="form-content">
-						<div class="form-group">
-							<label for="email">Email Address:</label>
-							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-						</div>
-						<div class="form-group">
-							<label for="pwd">Password:</label>
-							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-						</div>
-						<div class="form-group">
-							<label for="pwd">Repeat Password:</label>
-							<input type="password" class="form-control" id="pwd" placeholder="Repeat Password" name="pswd">
-						</div>
-						<div class="form-group form-check">
-							<label class="form-check-label">
-									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
-						</div>
-					</form>
-					<button type="button" class="btn btn-primary" data-dismiss="modal">Subscribe</button>
+				<div class="col-md-12 col-lg-4 ">
+					<h5 class="uppercase general-sub">About</h5>
+					<p class="text-justify">TodayinHistory.com wants you to relive events from the past that took place today. We want you to <i>read, watch or listen</i> to some of the most fascinating events that took place throughout history without bombarding you with too much boring text.
+						<strong>Subscribe</strong> to out newletter to keep up to date with all the new content we bring out everyday or <strong>Subscribe</strong> to our magazine which will provide you with even more topics for you to explore.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4">
 					<h5>Contacts</h5>
 					<dl class="contact-list">
 						<dt>Address:</dt>
@@ -272,48 +256,40 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="col-md-4">
-					<h5 class="uppercase general-sub">Social</h5>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube</span>
-                        </a>
-						</li>
+				<div class="col-md-6 col-lg-4">
+					<h5 class="uppercase general-sub">Links</h5>
+					<ul class="nav-list">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Private Policy</a></li>
+						<li><a href="#">Sitemap</a></li>
 					</ul>
-
 				</div>
-				<div class="footer-copyright text-center py-3">© 2019 Copyright:
-					<a href="#"> TodayinHistory.com</a>
+			</div>
+			<hr class="footer-divider">
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-6 col-xs-12">
+					<p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+						<a href="#">TodayinHistory</a>.
+					</p>
 				</div>
 
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-links">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
+
+
 
 	</footer>
 
