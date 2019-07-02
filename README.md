@@ -22,9 +22,9 @@ Want the user to be drawn in by the photos and the video's/podcasts whilst keepi
 
 # Technologies
 
-1.HTML
-2.CSS
-3.Bootstrap (4.3.1)
+1. HTML
+2. CSS
+3. Bootstrap (4.3.1)
 
 # Features
 
@@ -35,22 +35,39 @@ first podcast that allows the user to listen to the speech with a quote from the
 Will show the user an image with some description describing the contents of this month's magazine (subscribe button on the navbar will provide a check box so that we can email the user about how to set up a magazine subscription)
 footer that will show today in history's email contact and contact numbers which the user will be able to click for easy use.
 
-# features left to implement.
-create links to full articles regarding events so that the user can read about the event in more detail.
-create and archive of articles, videos and podcasts to allow the user to see more events
-main front screen of the website will be a taster of content for today and the user will have to subscribe to unlock more content.
+## features left to implement.
+..*create links to full articles regarding events so that the user can read about the event in more detail.
+..*include some outside links to further articles.
+..*be able to add social media accounts behind the social links button.
+..*more advanced forms allowung the user to purchase magazines from the website.
+..*create and archive of articles, videos and podcasts to allow the user to see more events.
+..*main front screen of the website will be a taster of content for today and the user will have to subscribe to unlock more content.
 
 # Testing
 The ability for the user to go straight from page to other sections of the website has been acheived 
 
+# Deployment
+I have deployed the site directly from the master branch on the github website, which required me to call my landing pgae index.html so it would deploy correctly.
+I also have changed the name of the branch master from origin to history to give my github page a flavour of the website theme.
+The repository website is under name http://ep185.github.io/Today-in-History
+
+# Media
+All the images where found from google searches on the topics in question.
+All the videos on the website come from different youtube channels
+..*egyptian revolution from jehan 345
+..*battle of waterloo from Epic Histoy Tv
+..*Tang dynasty from the very good Kings and Generals channel
+..*Finest hour speech from Warllam Stureon channel.
+The audio podcasts also came from youtube which I converted to mp3 format by using 4k youtube to mp3 converter.
 
 # Acknowledgements
-
-
-Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
-Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
-Used similar code for the social links as that used in the resume project - used similar class name and css properties
-Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd https://bootsnipp.com/snippets/2eMK5
-used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
-got favicon image from https://www.freefavicon.com/freefavicons/objects/iconinfo/black-and-blue-globe-152-243993.html
-used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
+..*Got my topic ideas from https://en.wikipedia.org/wiki/June_18 and copied the text for the egyptian revolution from there aswell.
+⋅⋅*Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
+⋅⋅*Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
+⋅⋅*Used similar code for the social links as that used in the resume project - used similar class name and css properties
+⋅⋅*Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd and  https://bootsnipp.com/snippets/2eMK5
+⋅⋅*used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
+⋅⋅*got favicon image from https://www.freefavicon.com/freefavicons/objects/iconinfo/black-and-blue-globe-152-243993.html
+⋅⋅*used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
+..*used https://www.youtube.com/watch?v=kEf1xSwX5D8 to add my favicon
+..*learnt how to make my youtube videos responsive by watching https://www.youtube.com/watch?v=9YffrCViTVk
