@@ -102,6 +102,14 @@ body {
   background-color: #525252;
 }
 
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
 /*-------------------------------------------listen */
 
 .listen {
@@ -109,6 +117,10 @@ body {
   color: #525252;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.audio-header {
+  font-weight: 700;
 }
 
 .audio-content {
@@ -129,6 +141,10 @@ body {
 
 .watch-content {
   padding-top: 20px;
+}
+
+.video-headers {
+  font-weight: 700;
 }
 
 .iframe-container {
@@ -154,6 +170,25 @@ body {
   padding-bottom: 30px;
 }
 
+.magazine-title {
+  font-weight: 700;
+}
+
+.magazine-text {
+  font-size: 25px;
+}
+
+@media screen and (max-width:1000px){
+  .magazine-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  .magazine-text {
+    font-size: 15px;
+  }
+}
+
 /*-------------------------------------------footer */
 
 footer {
@@ -161,6 +196,10 @@ footer {
   color: #525252;
   min-height: 120px;
   margin: 0;
+}
+
+.footer-heading {
+  font-weight: 700;
 }
 
 .page-footer a {
