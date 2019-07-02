@@ -2,7 +2,8 @@
 
 body {
   background-color: #525252;
-  color: white;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
 }
 
 .section {
@@ -20,9 +21,14 @@ body {
   }
 }
 
+.section {
+  position: relative;
+}
+
 .section-heading {
   padding-top: 10px;
   padding-bottom: 20px;
+  font-weight: 900;
 }
 
 /*-------------------------------------------navbar */
@@ -30,6 +36,8 @@ body {
 .navbar {
   background-color: #525252;
 }
+
+
 
 .modal-backdrop {
   position: unset !important;
@@ -47,6 +55,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
 
 /*-------------------------------------------Landing Page */
 
@@ -66,11 +76,19 @@ body {
 
 .jumbotron {
   background-color: transparent;
-  color: white;
+  color: #FFFFFF;
+}
+
+.jumbotron-header {
+  font-weight: 900;
+}
+
+.jumbotron-text {
+  font-weight: 700;
 }
 
 .block-divider {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /*-------------------------------------------what happened */
@@ -87,7 +105,7 @@ body {
 /*-------------------------------------------listen */
 
 .listen {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #525252;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -98,7 +116,7 @@ body {
 }
 
 .blockquote-footer {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #525252;
 }
 
@@ -139,7 +157,7 @@ body {
 /*-------------------------------------------footer */
 
 footer {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #525252;
   min-height: 120px;
   margin: 0;
