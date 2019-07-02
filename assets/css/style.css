@@ -39,6 +39,15 @@ body {
   color: #525252;
 }
 
+.form-control {
+  padding-bottom: 10px;
+}
+
+.form-check {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*-------------------------------------------Landing Page */
 
 .landing-page {

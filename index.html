@@ -46,30 +46,27 @@
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
-								<form class="form-content">
-									<div class="form-group">
-										<label for="validationDefault01">Email Address:</label>
-										<input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Email Address" required>
-									</div>
-									<div class="form-group">
-										<label for="pwd">Password:</label>
-										<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-									</div>
-									<div class="form-group">
-										<label for="pwd">Repeat Password:</label>
-										<input type="password" class="form-control" id="rppwd" placeholder="Repeat Password" name="rppswd" required>
-									</div>
-									<div class="form-group form-check">
+								<form action="/action_page.php" class="form-content" >
+										<label for="email">Email Address:</label>
+										<input type="text" class="form-control" placeholder="Enter Email" name="email" required>
+										
+										<label for="passwordwd">Password:</label>
+										<input type="password" class="form-control" placeholder="Enter password" name="password" required>
+									
+										<label for="repeat-password">Repeat Password:</label>
+										<input type="password" class="form-control" placeholder="Repeat Password" name="repeat-password" required>
+									
+									<div class="form-check">
 										<label class="form-check-label">
 									<input class="form-check-input" type="checkbox"> Remember me </label>
 									</div>
-									<div class="form-group form-check">
+									<div class="form-check">
 										<label class="form-check-label">
 									<input class="form-check-input" type="checkbox"> Request Magazine Subscription  </label>
 									</div>
 									<div class="modal-footer">
-										<button type="submit" class="btn btn-success" data-dismiss="modal">Subscribe</button>
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+										<button type="submit" class="signupbtn btn btn-success" data-dismiss="modal">Subscribe</button>
+										<button type="button" class="cancelbtn btn btn-danger" data-dismiss="modal">Close</button>
 									</div>
 								</form>
 							</div>
@@ -263,11 +260,11 @@
 				<div class="col-md-6 col-lg-4">
 					<h5 class="uppercase general-sub">Links</h5>
 					<ul class="nav-list">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Private Policy</a></li>
-						<li><a href="#">Sitemap</a></li>
+						<li><a href="#" target="_blank">About Us</a></li>
+						<li><a href="#" target="_blank">Contact Us</a></li>
+						<li><a href="#" target="_blank">Blog</a></li>
+						<li><a href="#" target="_blank">Private Policy</a></li>
+						<li><a href="#" target="_blank">Sitemap</a></li>
 					</ul>
 				</div>
 			</div>
@@ -284,10 +281,10 @@
 
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<ul class="social-links">
-						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="dribbble" href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a class="linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>

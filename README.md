@@ -20,6 +20,12 @@ But as the navbar will remain fixed and therfore follow the user they will be ab
 
 Want the user to be drawn in by the photos and the video's/podcasts whilst keeping the amont of text to a minimum to help the website feel less cluttered.
 
+# Technologies
+
+1.HTML
+2.CSS
+3.Bootstrap (4.3.1)
+
 # Features
 
 Will provide a fixed navbar that will provied easy navigation of the website, with a subscribe button so they can subscribe to the website at any time.
@@ -34,11 +40,8 @@ create links to full articles regarding events so that the user can read about t
 create and archive of articles, videos and podcasts to allow the user to see more events
 main front screen of the website will be a taster of content for today and the user will have to subscribe to unlock more content.
 
-# Technologies
-
-1.HTML
-2.CSS
-3.Bootstrap (4.3.1)
+# Testing
+The ability for the user to go straight from page to other sections of the website has been acheived 
 
 
 # Acknowledgements
