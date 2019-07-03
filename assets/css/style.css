@@ -107,8 +107,18 @@ body {
   background-color: #525252;
 }
 
-.card-title {
+.card-title a{
   font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.card-title a:hover {
+  color: #0099CC;
 }
 
 .card-text {

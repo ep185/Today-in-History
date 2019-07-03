@@ -31,11 +31,11 @@ Want the user to be drawn in by the photos and the video's/podcasts whilst keepi
 # Features
 
 * Will provide a fixed navbar that will provied easy navigation of the website, with a subscribe button so they can subscribe to the website at any time.
-A read more button on the landing page to immediately take the use to the main event .
-Buttons under each event to direct the user to the video or podcast relating to the event which will be particulary useful on the mobile.
-first podcast that allows the user to listen to the speech with a quote from the speech beside it (or under in on the mobile)
-Will show the user an image with some description describing the contents of this month's magazine (subscribe button on the navbar will provide a check box so that we can email the user about how to set up a magazine subscription)
-footer that will show today in history's email contact and contact numbers which the user will be able to click for easy use and will also include social links 
+* A read more button on the landing page to immediately take the use to the main event .
+* Buttons on each title event to direct the user to an outside document goint into more detail regarding the event.
+* First podcast that allows the user to listen to the speech with a quote from the speech beside it (or under in on the mobile)
+* Will show the user an image with some description describing the contents of this month's magazine (subscribe button on the navbar will provide a check box so that we can email the user about how to set up a magazine subscription)
+footer that will show today in history's email contact and contact numbers which the user will be able to click for easy use and will also include social links.
 
 ## features left to implement.
 * create links to full articles regarding events so that the user can read about the event in more detail.
@@ -58,6 +58,7 @@ to allow the form to pop up.
 The form on the subscribe button has been tested on mulitple browesers. It prevents the user from submitting the form withou filling in the email address and the 2 paswwords, on chrome 
 there will be a pop up saying please fill out this field - whilst microsoft edge it will hightlight the content green if completed correctly and red with text reminidng the user that
 this needs to be filled in. **The checkboxes are optional as this is to provide the user different options for additional content and therefoe do not need to be filled in.**
+
 # Deployment
 I have deployed the site directly from the master branch on the github website, which required me to call my landing pgae index.html so it would deploy correctly.
 I also have changed the name of the branch master from origin to history to give my github page a flavour of the website theme.
