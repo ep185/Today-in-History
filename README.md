@@ -47,31 +47,41 @@ footer that will show today in history's email contact and contact numbers which
 As this website has been deployed via github it does not support internet explorer which makes the website unavailable on this browser
 The ability for the user to go straight from page to other sections of the website has been acheived. Have tested the nav links on all web servers and they worked correctly.
 It does not cause any slowdwons or errors if the user uses the back or forward button and does not cause any unresponsive pages.
-Tested the subscribe button to make sure that it remains in the navbar on both mobile, ipad and desktop. whist testin the subscribe button on the mobile it would 
-join the dropdown list with the other nave items, this requried me to fix the position of the subscribe button for all screen resolutions to prevent it 
 
+Tested the subscribe button to make sure that it remains in the navbar on both mobile, ipad and desktop. whist testin the subscribe button on the mobile it would 
+join the dropdown list with the other nave items, this requried me to fix the position of the subscribe button by adding *"position:fixed; right: 75px; top: 8px;"* for all screen resolutions to prevent it 
+Also had a problem with the subscribe button as when the navbar was orginally fixed to the top it would open but be greyed out and you were unable to close it. This reuired me to add the *.modal-backdrop {position: unset !important;}* properties
+to allow the form to pop up.
+
+The form on the subscribe button has been tested on mulitple browesers. It prevents the user from submitting the form withou filling in the email address and the 2 paswwords, on chrome 
+there will be a pop up saying please fill out this field - whilst microsoft edge it will hightlight the content green if completed correctly and red with text reminidng the user that
+this needs to be filled in. **The checkboxes are optional as this is to provide the user different options for additional content and therefoe do not need to be filled in.**
 # Deployment
 I have deployed the site directly from the master branch on the github website, which required me to call my landing pgae index.html so it would deploy correctly.
 I also have changed the name of the branch master from origin to history to give my github page a flavour of the website theme.
-The repository website is under name http://ep185.github.io/Today-in-History
+
+The repository website is under name `http://ep185.github.io/Today-in-History`. This can be cloned to your repository by adding `git clone http://ep185.github.io/Today-in-History`
+and if you want to break from my git hup page you will need to `git remote rm history` not `git remote rm origin` as mentioned above i have changed origin to history in keepin with
+the theme of the website.
 
 # Media
 All the images where found from google searches on the topics in question.
 All the videos on the website come from different youtube channels
-..* egyptian revolution from jehan 345
-..* battle of waterloo from Epic Histoy Tv
-..* Tang dynasty from the very good Kings and Generals channel
-..* Finest hour speech from Warllam Stureon channel.
+* egyptian revolution from jehan 345
+* battle of waterloo from Epic Histoy Tv
+* Tang dynasty from the very good Kings and Generals channel
+* Finest hour speech from Warllam Stureon channel.
+* 
 The audio podcasts also came from youtube which I converted to mp3 format by using 4k youtube to mp3 converter.
 
 # Acknowledgements
-..* Got my topic ideas from https://en.wikipedia.org/wiki/June_18 and copied the text for the egyptian revolution from there aswell.
-..* Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
-..* Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
-..* Used similar code for the social links as that used in the resume project - used similar class name and css properties
-..* Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd and  https://bootsnipp.com/snippets/2eMK5
-..* used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
-..* got favicon image from https://www.freefavicon.com/freefavicons/objects/iconinfo/black-and-blue-globe-152-243993.html
-..* used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
-..* used https://www.youtube.com/watch?v=kEf1xSwX5D8 to add my favicon
-..* learnt how to make my youtube videos responsive by watching https://www.youtube.com/watch?v=9YffrCViTVk
+* Got my topic ideas from https://en.wikipedia.org/wiki/June_18 and copied the text for the egyptian revolution from there aswell.*
+* Used the text for the Battle of Waterloo card from https://www.britannica.com/event/Battle-of-Waterloo.
+* Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
+* Used similar code for the social links as that used in the resume project - used similar class name and css properties
+* Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd and  https://bootsnipp.com/snippets/2eMK5
+* used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
+* got favicon image from https://www.freefavicon.com/freefavicons/objects/iconinfo/black-and-blue-globe-152-243993.html
+* used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
+* used https://www.youtube.com/watch?v=kEf1xSwX5D8 to add my favicon
+* learnt how to make my youtube videos responsive by watching https://www.youtube.com/watch?v=9YffrCViTVk*
