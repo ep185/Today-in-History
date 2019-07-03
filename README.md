@@ -22,6 +22,8 @@ But as the navbar will remain fixed and therfore follow the user they will be ab
 
 Want the user to be drawn in by the photos and the video's/podcasts whilst keeping the amont of text to a minimum to help the website feel less cluttered.
 
+wireframes/landing_page_desktop.png
+
 # Technologies
 
 1. HTML
