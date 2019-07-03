@@ -1,7 +1,9 @@
 # Today-in-History
 
 The main purpose of this website is for it to attract a user who has a interest in history or is drawn into the website to find out what events took place today in the past. They will then, hopefully, subscribe to our website so that they can receive newsletters every week giving them a timetable of the events that have happened and the main event the website will be covering.
-Today in History Website will tell you what events happened today in the past and provide podcasts, Videos and magazine on the events that took place on this day throughout history. The example day that I am using is for the 18 June with the main event being the battle of waterloo that took place on that day. As this is the main event the user will be directed to the first image and text giving a general overview of the event. Will then provide links to see a video and a podcast relating to the main event.
+Today in History Website will tell you what events happened today in the past and provide podcasts, Videos and magazine on the events that took place on this day throughout history. 
+
+The example day that I am using is for the 18 June with the main event being the battle of waterloo that took place on that day. As this is the main event the user will be directed to the first image and text giving a general overview of the event. Will then provide links to see a video and a podcast relating to the main event.
 There will be 3 minor events that will aslo be included that hopefully they have not encountered before and the website will provide either a podcast and a documentary video on the subject or at least a video for them to learn more. 
 
 # UX
@@ -28,20 +30,20 @@ Want the user to be drawn in by the photos and the video's/podcasts whilst keepi
 
 # Features
 
-Will provide a fixed navbar that will provied easy navigation of the website, with a subscribe button so they can subscribe to the website at any time.
+* Will provide a fixed navbar that will provied easy navigation of the website, with a subscribe button so they can subscribe to the website at any time.
 A read more button on the landing page to immediately take the use to the main event .
 Buttons under each event to direct the user to the video or podcast relating to the event which will be particulary useful on the mobile.
 first podcast that allows the user to listen to the speech with a quote from the speech beside it (or under in on the mobile)
 Will show the user an image with some description describing the contents of this month's magazine (subscribe button on the navbar will provide a check box so that we can email the user about how to set up a magazine subscription)
-footer that will show today in history's email contact and contact numbers which the user will be able to click for easy use.
+footer that will show today in history's email contact and contact numbers which the user will be able to click for easy use and will also include social links 
 
 ## features left to implement.
-..* create links to full articles regarding events so that the user can read about the event in more detail.
-..* include some outside links to further articles.
-..* be able to add social media accounts behind the social links button.
-..* more advanced forms allowung the user to purchase magazines from the website.
-..* create and archive of articles, videos and podcasts to allow the user to see more events.
-..* main front screen of the website will be a taster of content for today and the user will have to subscribe to unlock more content.
+* create links to full articles regarding events so that the user can read about the event in more detail.
+* include some outside links to further articles.
+* be able to add social media accounts behind the social links button.
+* more advanced forms allowung the user to purchase magazines from the website.
+* create and archive of articles, videos and podcasts to allow the user to see more events.
+* main front screen of the website will be a taster of content for today and the user will have to subscribe to unlock more content.
 
 # Testing
 As this website has been deployed via github it does not support internet explorer which makes the website unavailable on this browser
@@ -70,8 +72,8 @@ All the videos on the website come from different youtube channels
 * egyptian revolution from jehan 345
 * battle of waterloo from Epic Histoy Tv
 * Tang dynasty from the very good Kings and Generals channel
-* Finest hour speech from Warllam Stureon channel.
-* 
+* Finest hour speech from Warllam Stureon channel.*
+
 The audio podcasts also came from youtube which I converted to mp3 format by using 4k youtube to mp3 converter.
 
 # Acknowledgements
