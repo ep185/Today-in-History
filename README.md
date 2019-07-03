@@ -63,8 +63,11 @@ I have deployed the site directly from the master branch on the github website, 
 I also have changed the name of the branch master from origin to history to give my github page a flavour of the website theme.
 
 The repository website is under name `http://ep185.github.io/Today-in-History`. This can be cloned to your repository by adding `git clone http://ep185.github.io/Today-in-History`
-and if you want to break from my git hup page you will need to `git remote rm history` not `git remote rm origin` as mentioned above i have changed origin to history in keepin with
+and if you want to break from my git hub page you will need to `git remote rm history` not `git remote rm origin` as mentioned above I have changed origin to history in keeping with
 the theme of the website.
+
+I deployed my website by going to my repository for Today in History on Github, then I selected settings on the options below `ep185/Today-in-History`. Then i scrolled down to the *GitHub Pages* section
+and clicked on the dropdown list below _source_. There I changed it from none to master branch which published my website under `https://ep185.github.io/Today-in-History/`.
 
 # Media
 All the images where found from google searches on the topics in question.
@@ -82,8 +85,8 @@ The audio podcasts also came from youtube which I converted to mp3 format by usi
 * Used some text for the Finest Hour speech from https://www.cfr.org/blog/twe-remembers-winston-churchills-finest-hour-speech
 * Used similar code for the social links as that used in the resume project - used similar class name and css properties
 * Used Footer template from similar code and css https://codepen.io/scanfcode/pen/MEZPNd and  https://bootsnipp.com/snippets/2eMK5
-* used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
+* Used text from website https://www.historyextra.com/period/second-world-war/8-historical-events-that-happened-in-june/ for magazine events.
 * got favicon image from https://www.freefavicon.com/freefavicons/objects/iconinfo/black-and-blue-globe-152-243993.html
-* used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
-* used https://www.youtube.com/watch?v=kEf1xSwX5D8 to add my favicon
+* Used subscribe form from https://mdbootstrap.com/docs/jquery/modals/forms/
+* Used https://www.youtube.com/watch?v=kEf1xSwX5D8 to add my favicon
 * learnt how to make my youtube videos responsive by watching https://www.youtube.com/watch?v=9YffrCViTVk*
