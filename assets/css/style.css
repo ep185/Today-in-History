@@ -1,5 +1,9 @@
 /* -------------------------------------------general padding/margins/text/colour */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #525252;
   color: #FFFFFF;
