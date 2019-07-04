@@ -96,6 +96,12 @@ body {
   background-color: #FFFFFF;
 }
 
+.btn-light {
+font-weight: 700;
+color: #525252;
+background-color: #eceeef;
+}
+
 /*-------------------------------------------what happened */
 
 .what-happened {

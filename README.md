@@ -22,16 +22,8 @@ But as the navbar will remain fixed and therfore follow the user they will be ab
 
 Want the user to be drawn in by the photos and the video's/podcasts whilst keeping the amont of text to a minimum to help the website feel less cluttered.
 
-{link}(..assets/wireframes/landing_page_desktop.png)
-{link}(..assets/wireframes/landing_page_mobile.png)
-{link}(..assets/wireframes/listen_desktop.png)
-{link}(..assets/wireframes/listen_mobile.png)
-{link}(..assets/wireframes/magazine_and_footer_desktop.png)
-{link}(..assets/wireframes/magazine_and_footer_mobile.png)
-{link}(..assets/wireframes/watch_desktop.png)
-{link}(..assets/wireframes/watch_mobile.png)
-{link}(..assets/wireframes/what_happened_desktop.png)
-{link}(..assets/wireframes/what_happened_mobile.png)
+Please look at the wireframes for the website below (https://wireframepro.mockflow.com/view/M1f98d5950d990a46260f8e82a8f8bb5d1560703082215#/page/bdf4310e165641e990fff6f5492edd99).
+
 
 # Technologies
 
